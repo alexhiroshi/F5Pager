@@ -1,0 +1,55 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #808080;
+    text-decoration: none;
+}
+
+body {
+    font: 13px/15px 'Pontano Sans', sans-serif;
+    color: #666;
+}
+
+.wrapper {
+    width: 420px;
+    margin: 50px auto 0;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 40px;
+    border-bottom: 1px solid #666;
+    margin: 20px 0;
+}
+
+.data {
+    height: 140px;
+}
+
+.list {
+    margin: 20px 0;
+}
+
+    .list li {
+        margin: 10px 0;
+    }
+
+.pager {
+    width: 350px;
+    text-align: center;
+}
+
+    .pager a {
+        margin: 0 10px;
+    }
+
+        .pager a.current-page {
+            font-weight: bold;
+        }
